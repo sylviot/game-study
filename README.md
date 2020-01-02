@@ -1,6 +1,6 @@
 # Game Study
 
-Site https://github.com/sylviot/game-study
+Site https://sylviot.github.io/game-study
 
 ### Game list
   * 01 - Awesome Bomberman Game
