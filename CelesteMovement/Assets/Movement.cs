@@ -49,6 +49,12 @@ public class Movement : MonoBehaviour
         {
             this.transform.localScale = new Vector3(Mathf.Sign(x) * Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
         }
+
+        if (this.collision.onWall)
+        {
+            this.transform.localScale = new Vector3(-Mathf.Sign(x) * Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
+        }
+
         if (this.canMove && (this.collision.onGround || this.collision.onAir))
         {
             this.Walk(direction);

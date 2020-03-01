@@ -13,6 +13,7 @@ public class State : MonoBehaviour
     public bool idle = false;
     public bool jumping = false;
     public bool falling = false;
+    public bool grabing = false;
 
     public int ActualState = 0;
 
@@ -30,6 +31,7 @@ public class State : MonoBehaviour
         this.idle = this.collision.onGround;
         this.jumping = this.collision.onAir && this.rigidbody.velocity.y > 0f;
         this.falling = this.collision.onAir && this.rigidbody.velocity.y < 0f;
+        this.grabing = this.collision.onWall;
 
         if (this.idle)
         {
@@ -49,6 +51,11 @@ public class State : MonoBehaviour
         if(this.falling)
         {
             this.ActualState = 3;
+        }
+
+        if (this.grabing)
+        {
+            this.ActualState = 4;
         }
 
 
