@@ -34,8 +34,7 @@ public class Movement : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-        var direction = new Vector2(x, y);
-        
+
         if (jump)
         {
             if (this.collision.onGround)
@@ -52,18 +51,28 @@ public class Movement : MonoBehaviour
 
         if (this.collision.onWall)
         {
-            this.transform.localScale = new Vector3(-Mathf.Sign(x) * Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
+            var direction = (this.collision.onLeftWall ? 1 : -1);
+            //this.Grab(direction);
+            //this.transform.localScale = new Vector3(direction * Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
         }
 
-        if (this.canMove && (this.collision.onGround || this.collision.onAir))
+        if (this.collision.onGround || this.collision.onAir)
+            //if (this.canMove && (this.collision.onGround || this.collision.onAir))
         {
+            var direction = new Vector2(x, y);
+
             this.Walk(direction);
         }
     }
 
+    private void Grab(float direction)
+    {
+        this.rigidbody.velocity = Vector2.zero;
+    }
+
     private void Walk(Vector2 direction)
     {
-        this.rigidbody.velocity = (new Vector2(direction.x * this.speed * (this.collision.onAir?0.75f:1), this.rigidbody.velocity.y));
+        this.rigidbody.velocity = (new Vector2(direction.x * this.speed * (this.collision.onAir ? 0.75f : 1), this.rigidbody.velocity.y));
     }
 
     private void Jump()
@@ -74,7 +83,7 @@ public class Movement : MonoBehaviour
 
     private void JumpFromWall()
     {
-        this.rigidbody.velocity = new Vector2(Vector2.right.x  * this.jumpForce *0.95f, 0);
+        this.rigidbody.velocity = new Vector2(Vector2.right.x * this.jumpForce * 0.95f, 0);
         this.Jump();
         StartCoroutine("ReactiveMovement");
     }

@@ -7,7 +7,7 @@ public class Collision : MonoBehaviour
     public LayerMask groundLayer;
     public LayerMask wallLayer;
 
-    public bool onGround, onWall, onLeftWall, onRightWall, onAir;
+    public bool onGround, onWall, onLeftWall, onRightWall, onBottomWall, onAir;
 
     [Header("Offsets")]
     public float collisionRadius = 0.25f;
@@ -24,6 +24,7 @@ public class Collision : MonoBehaviour
         this.onGround = Physics2D.OverlapCircle((Vector2)this.transform.position + this.bottomOffset, this.collisionRadius, this.groundLayer);
         this.onLeftWall = Physics2D.OverlapCircle((Vector2)this.transform.position + this.leftOffset, this.collisionRadius, this.wallLayer);
         this.onRightWall = Physics2D.OverlapCircle((Vector2)this.transform.position + this.rightOffset, this.collisionRadius, this.wallLayer);
+        this.onBottomWall = Physics2D.OverlapCircle((Vector2)this.transform.position + this.bottomOffset, this.collisionRadius, this.wallLayer);
 
         this.onWall = !this.onGround && (this.onLeftWall || this.onRightWall);
 
