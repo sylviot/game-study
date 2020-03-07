@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using DG.Tweening;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +14,7 @@ public class Movement : MonoBehaviour
 
     public float jumpForce = 5f;
     public float speed = 4f;
+    public float dashPower = 40f;
 
     private bool canMove = true;
 
@@ -33,13 +36,34 @@ public class Movement : MonoBehaviour
         bool jump = Input.GetButton("Jump");
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-
+        float xRaw = Input.GetAxisRaw("Horizontal");
+        float yRaw = Input.GetAxisRaw("Vertical");
+        bool dash = Input.GetMouseButtonDown(0);// Input.GetKeyDown(KeyCode.F);
+        var direction = new Vector2(x, y);
 
         if (jump)
         {
             if (this.collision.onGround)
             {
                 this.Jump();
+            }
+        }
+
+        if (dash)
+        {
+            if(xRaw != 0 || yRaw != 0)
+            {
+                this.canMove = false;
+                Debug.Log($"{xRaw}, {yRaw}");
+                Camera.main.transform.DOComplete();
+                Camera.main.transform.DOShakePosition(.2f, .5f, 14, 90, false, true);
+                FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(this.transform.position));
+                FindObjectOfType<GhostTrail>().Show();
+                direction = new Vector2(xRaw, yRaw);
+                this.rigidbody.velocity = Vector2.zero;
+                this.rigidbody.velocity += direction.normalized * dashPower;
+                Debug.Log($"{direction.normalized * 40f}");
+                StartCoroutine(DashWait());
             }
         }
 
@@ -51,18 +75,35 @@ public class Movement : MonoBehaviour
 
         if (this.collision.onWall)
         {
-            var direction = (this.collision.onLeftWall ? 1 : -1);
+            //var direction = (this.collision.onLeftWall ? 1 : -1);
             //this.Grab(direction);
             //this.transform.localScale = new Vector3(direction * Mathf.Abs(this.transform.localScale.x), this.transform.localScale.y, this.transform.localScale.z);
         }
 
-        if (this.collision.onGround || this.collision.onAir)
+        if (this.canMove && (this.collision.onGround || this.collision.onAir))
             //if (this.canMove && (this.collision.onGround || this.collision.onAir))
         {
-            var direction = new Vector2(x, y);
-
+            
             this.Walk(direction);
         }
+    }
+
+    IEnumerator DashWait()
+    {
+        DOVirtual.Float(14, 0, .8f, this.RigidbodyDrag);
+        var gravity = this.rigidbody.gravityScale;
+        this.rigidbody.gravityScale = 0;    
+        
+        
+        yield return new WaitForSeconds(.3f);
+
+        this.canMove = true;
+        this.rigidbody.gravityScale = gravity;
+    }
+
+    private void RigidbodyDrag(float x)
+    {
+        this.rigidbody.drag = x;
     }
 
     private void Grab(float direction)
