@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 89573210f91860f45a080cbb634578b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2738541505771157640
+    second: peixemoedaspritesheet_0
+  - first:
+      213: -1153333561556586682
+    second: peixemoedaspritesheet_1
+  - first:
+      213: -3065757609497559580
+    second: peixemoedaspritesheet_2
+  - first:
+      213: -8947307448783378673
+    second: peixemoedaspritesheet_3
+  - first:
+      213: 1072087022152654701
+    second: peixemoedaspritesheet_4
+  - first:
+      213: 7486172391380160834
+    second: peixemoedaspritesheet_5
+  - first:
+      213: 2169928032159645489
+    second: peixemoedaspritesheet_6
+  - first:
+      213: -5118163190410253698
+    second: peixemoedaspritesheet_7
+  - first:
+      213: -3970091601715669705
+    second: peixemoedaspritesheet_8
+  - first:
+      213: 4769280667517766492
+    second: peixemoedaspritesheet_9
+  - first:
+      213: -263676455715977904
+    second: peixemoedaspritesheet_10
+  - first:
+      213: -671240317450724431
+    second: peixemoedaspritesheet_11
+  - first:
+      213: -8952682630482219859
+    second: peixemoedaspritesheet_12
+  - first:
+      213: -3643712389905001104
+    second: peixemoedaspritesheet_13
+  - first:
+      213: -6725829394459560438
+    second: peixemoedaspritesheet_14
+  - first:
+      213: 4040843387869205854
+    second: peixemoedaspritesheet_15
+  - first:
+      213: 2121443671763558105
+    second: peixemoedaspritesheet_16
+  - first:
+      213: 5868268409244171346
+    second: peixemoedaspritesheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a641e9d8bfbb5674da9de7dfd491f3a6
+      internalID: -1443260027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b12e89ab330c4649b0970a385f83a49
+      internalID: 142871207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faa08db031434d409ae18c88098840e
+      internalID: -1501095120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce258a8baec90745a7cdd8d9a70a87b
+      internalID: 1841646066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c630937176f2940ad870365118c71c
+      internalID: 951420422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b010f06deb25b4c8a4e3c121316c36
+      internalID: -196918153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47b0bc164ccefe4385cfb4529a8d8cb
+      internalID: -893363515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 3
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0954620fdae49b040a71415e97245db3
+      internalID: -286984868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 3
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd386a25ce4a8cf478c7234925ea32b7
+      internalID: -1891956407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 3
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b3a99fc138f34ebb84f1e53ec40fe
+      internalID: 475751546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 3
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7a5a02c9a73ae4ea35b6766dc2215f
+      internalID: -2135873174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c3db79bcef6614d814648bdb071e0a
+      internalID: 1520128365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49d8d49b89ba9e449f79154adae2ece
+      internalID: -1339650502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac298144f61d335488336865896f4f5e
+      internalID: -1729853867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6469c98aaa62374890a67b64fa69e41
+      internalID: -1848105091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb1f39c4487ae42aa7b3d907d21361
+      internalID: 495479012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 2
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc44c93712d15e48afd7e835e4deaac
+      internalID: 1148463312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1cb9fda5d479d4881f0bfdbbb881fe
+      internalID: 1489735832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4249644ebb5d33e4289bf612f6cb92f9
+      internalID: -166492990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74b0296fabe79042918b1f04866c63d
+      internalID: -739842850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a13aa99bc2b334bb54cd7d3d4a1f80
+      internalID: 1632597359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: peixemoedaspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 2
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48ad30d9408d81469d0a9eb88aed34d
+      internalID: -1027251124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50a76e26a6bafb045bd659fac6e2195c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      peixemoedaspritesheet_0: -1443260027
+      peixemoedaspritesheet_1: 142871207
+      peixemoedaspritesheet_10: -2135873174
+      peixemoedaspritesheet_11: 1520128365
+      peixemoedaspritesheet_12: -1339650502
+      peixemoedaspritesheet_13: -1729853867
+      peixemoedaspritesheet_14: -1848105091
+      peixemoedaspritesheet_15: 495479012
+      peixemoedaspritesheet_16: 1148463312
+      peixemoedaspritesheet_17: 1489735832
+      peixemoedaspritesheet_18: -166492990
+      peixemoedaspritesheet_19: -739842850
+      peixemoedaspritesheet_2: -1501095120
+      peixemoedaspritesheet_20: 1632597359
+      peixemoedaspritesheet_21: -1027251124
+      peixemoedaspritesheet_3: 1841646066
+      peixemoedaspritesheet_4: 951420422
+      peixemoedaspritesheet_5: -196918153
+      peixemoedaspritesheet_6: -893363515
+      peixemoedaspritesheet_7: -286984868
+      peixemoedaspritesheet_8: -1891956407
+      peixemoedaspritesheet_9: 475751546
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
