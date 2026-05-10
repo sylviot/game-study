@@ -3,6 +3,7 @@
 Site https://sylviot.github.io/game-study
 
 ### Game list
+  * 06 - [Tainara](https://sylviot.github.io/game-study/Tainara/Build/index.html)
   * 05 - [Doom Fire 2D](https://sylviot.github.io/game-study/DoomFire2D/Build/index.html)
   * 04 - [Smash Bros Menu](https://sylviot.github.io/game-study/SmashBrosMenu/Build/index.html)
   * 03 - [Celeste Movement](https://sylviot.github.io/game-study/CelesteMovement/Build/index.html)
